@@ -1,16 +1,15 @@
 module github.com/oakwood-commons/scafctl-plugin-secret
 
-go 1.26.4
+go 1.26.5
 
 require (
 	github.com/Masterminds/semver/v3 v3.5.0
 	github.com/google/jsonschema-go v0.4.3
-	github.com/oakwood-commons/scafctl-plugin-sdk v0.16.0
-	github.com/stretchr/testify v1.11.1
+	github.com/oakwood-commons/scafctl-plugin-sdk v0.17.0
+	github.com/stretchr/testify v1.12.0
 )
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
@@ -20,7 +19,6 @@ require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect
 	github.com/oklog/run v1.1.0 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
